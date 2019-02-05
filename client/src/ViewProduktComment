@@ -1,0 +1,108 @@
+<template>
+
+    <v-dialog
+      v-model="dialog"
+      width="500"
+      persistent
+    >
+      <v-card class="form">
+
+        <v-card-title
+          class="form-title"
+          primary-title
+
+        >
+          Czy na pewno chcesz usunąć ten produkt?
+        </v-card-title>
+
+<br/>
+          <v-btn
+
+            dark
+            class="teal darken-2"
+            @click="usuwanie"
+            >
+            Tak
+          </v-btn>
+
+
+          <v-btn
+
+            dark
+            class="teal darken-2"
+            @click="cofniecie"
+            >
+            Nie
+          </v-btn>
+
+
+      </v-card>
+
+      </v-dialog>
+
+
+</template>
+
+<script>
+import ProduktsService from '@/services/ProduktsService'
+export default {
+  data () {
+    return {
+      dialog: true
+    }
+  },
+  methods: {
+    async cofniecie () {
+      try {
+        this.$router.push({name: 'produkts'})
+      } catch (err) {
+        console.log(err)
+      }
+    },
+    async usuwanie () {
+      try {
+        await ProduktsService.delete(this.produkt.id)
+        this.produkt = null
+      } catch (err) {
+        console.log(err)
+      }
+    }
+  }
+}
+
+</script>
+
+<style scoped>
+
+.form-button{
+  margin-top: 50px;
+}
+
+.form-button{
+  margin-top: 50px;
+}
+
+.form-title{
+  font-size: 30px;
+  display:inline-block;
+  color: #00796B;
+  margin-bottom: 50px;
+  border-bottom: solid;
+}
+
+.form{
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+
+}
+
+.form{
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-top: 20px;
+
+}
+
+</style>
