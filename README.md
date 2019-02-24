@@ -13,16 +13,20 @@ Go to directory client by unix commands:
 # Client Terminal A:
 
 cd client
+
 npm install
+
 npm start
 
 # Server Terminal B:
 
 cd server
+
 npm install
+
 npm start
 
-App should work after typing these commands.
+# Errors
 
 If you have error "please install sqlite3 package manually" you gotta do:
 
