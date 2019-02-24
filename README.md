@@ -1,6 +1,6 @@
 # Project Gym
 
-Vue.js/Node.js(Express.js) app for gym and diet.
+Vue.js / Node.js (Express.js) app for gym and diet.
 
 # Setup
 
@@ -8,7 +8,7 @@ Install Node.js: https://nodejs.org/en/ | At least have 8.2.1 version or newer.
 
 I suggest you to install also cmder: https://cmder.net/
 
-Go to directory client by unix commands:
+Go to directory client by unix commands in cmder and run commands to install app.
 
 # Client Terminal A:
 
