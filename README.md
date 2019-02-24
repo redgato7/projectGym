@@ -1,32 +1,35 @@
-# Tab Tracker
-A Vue.js / Express.js web application for keeping track of guitar tabs
+# Project Gym
+
+Vue.js/Node.js(Express.js) app for gym and diet.
 
 # Setup
 
-You need to have Node Js installed: https://nodejs.org/en/
+Install Node.js: https://nodejs.org/en/ | At least have 8.2.1 version or newer.
 
-You must at least have **NODE version 8.2.1**
+I suggest you to install also cmder: https://cmder.net/
 
-Don't know how to install different version of node?  Try this: https://github.com/tj/n
+Go to directory client by unix commands:
 
-I suggest you install the following that I use in the video:
+# Client Terminal A:
 
-VSCode: https://code.visualstudio.com/
-
-ITerm2: https://www.iterm2.com/ (Mac Only)
-
-Git: https://git-scm.com/
-
-### Client - Terminal A
-```
 cd client
 npm install
 npm start
-```
 
-### Server - Terminal B
-```
+# Server Terminal B:
+
 cd server
 npm install
 npm start
-```
+
+App should work after typing these commands.
+
+If you have error "please install sqlite3 package manually" you gotta do:
+
+npm install sqlite3 --save
+
+npm install sequelize --save
+
+And then:
+
+npm start
