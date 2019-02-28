@@ -4,13 +4,13 @@ Vue.js / Node.js (Express.js) app for gym and diet.
 
 Moqups of an app:
 
-https://imagizer.imageshack.com/img922/5180/yiXCqA.png
+https://imagizer.imageshack.com/img922/9766/HlrHmB.png
 
 https://imagizer.imageshack.com/img923/3936/MGMVRU.png
 
-https://imagizer.imageshack.com/img922/9766/HlrHmB.png
-
 https://imagizer.imageshack.com/img923/62/s18Bv1.png
+
+https://imagizer.imageshack.com/img922/5180/yiXCqA.png
 
 https://imagizer.imageshack.com/img923/4906/9T20PL.png
 
